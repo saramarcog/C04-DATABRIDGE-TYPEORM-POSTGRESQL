@@ -31,7 +31,7 @@ export default function App() {
     });
     setTitulo('');
     setArtista('');
-    cargar();
+    await cargar();
   }
 
   if (!playlist) return <Text>Cargando...</Text>;

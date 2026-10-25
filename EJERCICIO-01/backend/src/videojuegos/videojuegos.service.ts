@@ -23,19 +23,19 @@ export class VideojuegosService implements OnModuleInit {
           titulo: 'Hollow Knight',
           plataforma: 'Nintendo Switch',
           puntuacion: 9.4,
-          categoria: 'Metroidvania',
+          genero: 'Metroidvania',
         }),
         this.repository.create({
           titulo: 'Zelda: Tears of the Kingdom',
           plataforma: 'Nintendo Switch',
           puntuacion: 9.8,
-          categoria: 'Aventura',
+          genero: 'Aventura',
         }),
         this.repository.create({
           titulo: 'Forza Horizon 5',
           plataforma: 'Xbox',
           puntuacion: 9.1,
-          categoria: 'Carreras',
+          genero: 'Carreras',
         }),
       ];
 

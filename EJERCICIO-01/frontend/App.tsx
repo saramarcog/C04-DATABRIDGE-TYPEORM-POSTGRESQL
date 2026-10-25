@@ -96,8 +96,7 @@ export default function App() {
                   ★ {Number(item.puntuacion).toFixed(1)}
                 </Text>
               </View>
-            //Para ver la categoria del juego, descomenta la siguiente línea:
-            // <Text style={styles.platform}>{item.categoria}</Text>
+            <Text style={styles.platform}>{item.categoria}</Text>
 
             </View>
           )}

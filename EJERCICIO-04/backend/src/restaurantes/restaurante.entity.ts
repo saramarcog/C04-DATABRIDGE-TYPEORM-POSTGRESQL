@@ -17,7 +17,7 @@ export class Restaurante {
   @Column('decimal', { precision: 3, scale: 1 })
   puntuacion: number;
 
-@Column()
+@Column('decimal', { precision: 7, scale: 2 })
 precioMedio: number;
 
 

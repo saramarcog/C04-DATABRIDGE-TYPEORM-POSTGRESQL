@@ -19,7 +19,7 @@ export default function App() {
         nombre,
         tipo,
         ciudad,
-        puntuacion:9,
+        puntuacion: 9,
         precioMedio: parseFloat(precioMedio) || 0,
       }),
     });

@@ -23,8 +23,8 @@ export class Videojuego {
   plataforma: string;
 
   // Asignando un valor por defecto para las filas existentes:
-@Column({ default: 'Sin categoría' })
-categoria: string;
+@Column({ default: 'Sin género' })
+genero: string;
   
 
   // precision 3 + scale 1 permite valores como 9.4 o 10.0.
