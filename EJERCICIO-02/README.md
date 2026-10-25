@@ -1,0 +1,2 @@
+**Explica por qué find() no necesita conocer cómo se dibuja una película en React Native.**
+Porque find() solo trae el objeto en memoria segun la busqueda, de pintarlo en la pantalla ya se encarga React Native.
